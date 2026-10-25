@@ -1,0 +1,6 @@
+node_modules/
+.DS_Store
+.taste-skill/inspect/
+*.tar.gz
+.taste-skill/final-home/
+.taste-skill/final-settings/
