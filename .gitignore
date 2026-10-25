@@ -4,3 +4,7 @@ node_modules/
 *.tar.gz
 .taste-skill/final-home/
 .taste-skill/final-settings/
+
+.vercel/
+.openai/
+.env*

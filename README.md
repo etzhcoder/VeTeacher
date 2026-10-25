@@ -39,4 +39,10 @@ Chosen direction: Editorial greeting, seed 1362663712. Instrument Sans, pale sag
 
 ## Deployment
 
-`.openai/hosting.json` identifies the private Sites project. Static directory: `dist`. Preserve its identity on updates. Bump the service-worker cache name when changing cached assets.
+GitHub repository: https://github.com/etzhcoder/VeTeacher
+
+Production host: GitHub Pages at https://etzhcoder.github.io/VeTeacher/
+
+Pushes to `main` run syntax checks and tests, then publish `dist/` using `.github/workflows/pages.yml`. The deployed app is public and does not require ChatGPT sign-in. No runtime server, build step, or hosting secrets are required. The web manifest and asset paths support the repository subdirectory.
+
+Bump the service-worker cache name when changing cached assets. The previous ChatGPT Sites hosting configuration has been removed from this checkout.
